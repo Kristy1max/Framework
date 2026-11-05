@@ -1,0 +1,12 @@
+{
+  "name": "framework-prj",
+  "version": "1.0.0",
+  "description": "A project to learn how to write a frontend framework",
+  "private": true,
+  "scripts": {
+    "serve:examples": "npx http-server . -o ./examples/"
+  },
+  "workspaces": [
+    "packages/runtime"
+  ]
+}
