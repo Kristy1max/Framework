@@ -4,9 +4,12 @@
   "description": "A project to learn how to write a frontend framework",
   "private": true,
   "scripts": {
-    "serve:examples": "npx http-server . -o ./examples/"
+    "serve:examples": "live-server . --open=/examples/chapter-2/ --watch=examples,packages/runtime/dist"
   },
   "workspaces": [
     "packages/runtime"
-  ]
+  ],
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
 }
